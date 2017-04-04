@@ -66,7 +66,7 @@ body{
 }
 
 @media only screen and (max-width: 900px){
-	.panel{
+	.panel{file:///C:/Users/ebi888/Documents/COLLEGE/senior/CreativeSeminar/PEEL/summer.html
 		max-width:40%;
 	}
 
@@ -78,10 +78,21 @@ body{
 @media only screen and (max-width: 400px){
 	.panel{
 		max-width:90%;
+		opacity: 1.0;
 	}
+
+	.panel:hover{
+		opacity: .5;
+	}
+
+
+
 	.content{
 		margin-top: 60px;
 	}
+
+
+
 }
 
 
