@@ -85,11 +85,21 @@ body{
 		opacity: .5;
 	}
 
+	#button{
+		max-height: 25px;
+	}
 
+	#button_active{
+		max-height: 25px;
+	}
 
 	.content{
 		margin-top: 60px;
 	}
+
+	nav a{
+	padding: 10px;
+}
 
 
 
