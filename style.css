@@ -1,0 +1,87 @@
+/* navigation bar */
+nav {
+	margin: 0;
+	padding: 16px;
+
+	position: fixed;
+	top: 0;
+	background-color: white;
+	width: 100%;
+	z-index: 1;
+}
+
+nav a{
+	color: #999;
+	padding: 16px;
+	text-decoration: none;
+	font-size: 16px;
+	transition: 1s ease;
+	font-family: "Open Sans", "Verdana"
+}
+
+nav a:hover{
+	color: #111;
+	transition: 1s ease;
+}
+
+#button{
+	max-height: 32px;
+	filter: opacity(25%);
+	transition: 1s ease;
+}
+
+#button_active{
+	max-height: 32px;
+	filter: opacity(100%);
+}
+
+#button:hover{
+	filter: opacity(75%);
+	transition: 1s ease;
+}
+
+
+
+/* main content */
+body{
+	font-family: "Georgia";
+}
+
+.content{
+	margin-top: 100px;
+}
+
+
+/* navigation bar */
+.panel{
+	max-width: 22%;
+	display: float;
+	transition: 1s ease;
+	opacity: .5;
+}
+
+.panel:hover {
+	opacity: 1.0;
+	transiton: 1s ease;
+}
+
+@media only screen and (max-width: 900px){
+	.panel{
+		max-width:40%;
+	}
+
+	.content{
+		margin-top: 75px;
+	}
+}
+
+@media only screen and (max-width: 400px){
+	.panel{
+		max-width:90%;
+	}
+	.content{
+		margin-top: 60px;
+	}
+}
+
+
