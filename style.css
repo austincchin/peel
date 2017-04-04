@@ -51,6 +51,11 @@ body{
 	margin-top: 100px;
 }
 
+h1{
+	font-style: italic;
+	color: #555
+}
+
 
 /* navigation bar */
 .panel{
@@ -78,7 +83,7 @@ body{
 @media only screen and (max-width: 400px){
 	.panel{
 		max-width:90%;
-		opacity: 1.0;
+		opacity: .9;
 	}
 
 	.panel:hover{
