@@ -43,16 +43,13 @@ nav a:hover{
 
 
 /* main content */
-body{
-	font-family: "Georgia";
-	color: #333;
-}
 
 .content{
 	margin-top: 100px;
 }
 
 h1{
+	font-family: "Georgia";
 	font-style: italic;
 	color: #555
 }
