@@ -45,6 +45,7 @@ nav a:hover{
 /* main content */
 body{
 	font-family: "Georgia";
+	color: #333;
 }
 
 .content{
@@ -54,6 +55,20 @@ body{
 h1{
 	font-style: italic;
 	color: #555
+}
+
+h4{
+	font-family: "Open Sans", "verdana";
+	padding-left: 16px;
+	margin-bottom: 0px;
+}
+
+p{
+	padding: 16px;
+	font-family: "Open Sans", "verdana";
+	font-size: 14px;
+	font-style: normal;
+	margin-top: 0px;
 }
 
 
@@ -70,6 +85,10 @@ h1{
 	transiton: 1s ease;
 }
 
+.about{
+	width: 50%;
+}
+
 @media only screen and (max-width: 900px){
 	.panel{
 		max-width:40%;
@@ -78,6 +97,10 @@ h1{
 	.content{
 		margin-top: 75px;
 	}
+
+.about{
+	width: 75%;
+}
 }
 
 @media only screen and (max-width: 400px){
@@ -102,6 +125,9 @@ h1{
 		margin-top: 60px;
 	}
 
+	.about{
+		width: 90%;
+	}
 	nav a{
 	padding: 10px;
 }
